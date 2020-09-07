@@ -1,5 +1,5 @@
 'use strict';
-// user name
+//to enter user name
 var name= prompt(" Enter Your Name ,Please!");
 //greeting
 var greeting=prompt('How Are You Today ? ');
