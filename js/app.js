@@ -8,7 +8,7 @@ var greeting=prompt('How Are You Today ? ');
 // greeing alert 
 alert("Hey, " +name + ", have a nice day and stay safe . \n  Greetings "  );
 //  prompt to guess   my name
- var answer = prompt("My name is Hadeel? \n  Yes/No ,and you can put y/n also").toLowerCase();
+ var answer = prompt(" Is  my name Hadeel? \n  Yes/No ,and you can put y/n also").toLowerCase();
  if(answer=='yes' ||answer=='y' ){
     console.log('YEEEEEEEES, You   get it right');
     alert("True , my name is hadeel hussam .")
@@ -23,7 +23,7 @@ else{
     alert('You entered  invalid value');
 }
 // promot to guess my major 
-var mymajor= prompt("My Major is  Software engineering ? \n Yes/No  ,and you can put y/n also  ").toLowerCase();
+var mymajor= prompt(" Is my major an software engineering? ? \n Yes/No  ,and you can put y/n also  ").toLowerCase();
  if(mymajor=='yes'||mymajor=='y'){
     // alert appers when the user click true
     console.log('YEEEEEEEES, great ');
@@ -50,7 +50,7 @@ else{
     alert('You entered  invalid value');
 }
 
-var cat=prompt(" I don't like cat?").toLowerCase();
+var cat=prompt(" Do I like cats?").toLowerCase();
 if(cat=='yes' || cat=='y'){
    // alert appers when the user click true
     console.log('True');
@@ -78,7 +78,7 @@ else{
     alert('You entered  invalid value');
 }
 
-var dif=prompt(" I have a different twines?   \n Yes/No  ,and you can put y/n also  ",'yes').toLowerCase();
+var dif=prompt("Do I have a different twin??   \n Yes/No  ,and you can put y/n also  ",'yes').toLowerCase();
 if(dif=='yes'|| dif=='y'){
     // alert appers when the user click true
 
