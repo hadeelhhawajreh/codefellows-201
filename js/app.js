@@ -6,67 +6,45 @@ var greeting=prompt('How Are You Today ? ');
 // greeing alert 
 alert(' Greeting ' + name + ' Wish To You A Nice Day and Stay Safe ');
 // yes/no question about my name
- var answer = confirm('My name is Hadeel?');
- if(answer==true){
+ var answer = prompt("My name is Hadeel? \n  Yes/No");
+ if(answer.toLowerCase()=="yes"){
     console.log('YEEEEEEEES');
-    alert("Truuuuuuuuuuuueeeeeeeee")
+    alert("True , my name is hadeel hussam")
 }
 // promot to guess my major 
-var mymajor= prompt(" Guess what is  my major   ( Software engineering ,computer science and computer engineering? )");
- if(mymajor.toLowerCase()=='software engineering'){
+var mymajor= prompt("My Major is  Software engineering ? \n Yes/No ");
+ if(mymajor.toLowerCase()=='yes'){
     // alert appers when the user click true
+    console.log('YEEEEEEEES');
 
-    alert(' Youre great');
+    alert(' Yes true , i am  a senior software engineering  ');
 }
 // promote to guess my age
- var myage=prompt(" Guess my age :) hint **  \' i was born in 1998 \'  ");
- if( parseInt(myage) ==22){
-  // alert appers when the user click true
-    alert(' Youre Good in guess :) ');}
- var fav=prompt(' Guess what i love more (front, back) hint ** \' i like the  desin \'');
- 
- if(fav.toLowerCase()=="front"){
-  // promote to guess what i love fron or back
+ var myage=prompt(" Is my age in 22 ?  \n Yes/No '  ");
+if(myage.toLowerCase()=='yes'){ // alert appers when the user click true
+    alert('  Yes true ,  i was born in 1998 :) ');
+}
 
-    // alert appers when the user click true
-
-    alert('  GOOD  JOB :) ');
-
- }
-
-var cat=confirm(" I don't like cat?");
-if(cat==true){
+var cat=prompt(" I don't like cat?");
+if(cat.toLowerCase()=='yes'){
    // alert appers when the user click true
-
     console.log('True');
-    alert("TRUEEEEEEE")
+    alert("I'm really afraid of cats.");
 }
 
-var eat=confirm("I don't eat mansaf ?");
-if(eat==true){
+var eat=prompt("I don't eat mansaf ? \n Yes/No");
+if(eat.toLowerCase()=="yes"){
    // alert appers when the user click false
-
-    console.log('False , does anyone hate a  mansaf?');
-    alert("False , does anyone hate a  mansaf?")
-}
-// promote to guess my sleep hours
-
-var sleep=confirm(" I don't sleep over than 7 hours daily?  ");
-if(sleep==true){
-    // alert appers when the user click true
-
- 
-    console.log('True');
-    alert("TRUEEEEEEE")
+    console.log(' does anyone hate a  mansaf?');
+    alert(" does anyone hate a  mansaf?");
 }
 
-
-var dif=confirm(" I have a different twines? ")
-if(dif==true){
+var dif=prompt(" I have a different twines?   \n Yes/No ")
+if(dif.toLowerCase()=="yes"){
     // alert appers when the user click true
 
     console.log('True');
-    alert("TRUEEEEEEE")
+    alert("Yah ,I have a twin brother.");
 }
 
  
