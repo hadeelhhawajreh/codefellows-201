@@ -2,7 +2,7 @@ h1{
     text-align: left;
     margin: 10px;
     font-size: 50px;
-    color: seashell;
+
 
 }
 
@@ -11,15 +11,20 @@ h1{
     margin: 10px;
     font-size: 20px;
     padding: 10px;
-    border: 1px solid white;
-    height: 300px;
-    width: 600px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    word-spacing: 5px;
 
+font: 1em sans-serif; 
+   word-spacing: 2px;
+font-variant: unset; 
+font-weight: 500;
 
-
-
+}
+h3{
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    margin: 10px;
 }
 body{
     background-color: wheat;
@@ -30,3 +35,19 @@ p{
     margin: 10px;
 
 }
+
+.top-ten{
+    text-align: left;
+    margin: 5px;
+    font-size: px;
+    padding: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 1px;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    width: fit-content;
+    
+}
+
+
