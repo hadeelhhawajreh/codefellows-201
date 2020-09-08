@@ -1,10 +1,10 @@
 'use strict';
 //to enter user name
-var name= prompt(" Enter Your Name ,Please!");
+var name= prompt(" Enter Your Name ,please !");
 //greeting
 var greeting=prompt('How Are You Today ? ');
 // greeing alert 
-alert(' Greeting ' + name + ' Wish To You A Nice Day and Stay Safe ');
+alert("Hey, " +name + ", have a nice day and stay safe . \n  Greetings "  );
 // yes/no question about my name
  var answer = prompt("My name is Hadeel? \n  Yes/No");
  if(answer.toLowerCase()=="yes"){
@@ -33,13 +33,13 @@ if(cat.toLowerCase()=='yes'){
 }
 
 var eat=prompt("I don't eat mansaf ? \n Yes/No");
-if(eat.toLowerCase()=="yes"){
+if(eat.toLowerCase()=="no"){
    // alert appers when the user click false
     console.log(' does anyone hate a  mansaf?');
     alert(" does anyone hate a  mansaf?");
 }
 
-var dif=prompt(" I have a different twines?   \n Yes/No ")
+var dif=prompt(" I have a different twines?   \n Yes/No ",'yes')
 if(dif.toLowerCase()=="yes"){
     // alert appers when the user click true
 
