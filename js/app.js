@@ -64,14 +64,3 @@ if(dif=='yes'|| dif=='y'){
 else{
     alert('You didnt  get it right.')
 }
-
-
-
-
-
-
- 
-
- 
- 
-
