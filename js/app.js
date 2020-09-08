@@ -68,7 +68,7 @@ var eat=prompt("I don't eat mansaf ? \n Yes/No  ,and you can put y/n also ").toL
 if(eat=='no'||eat=='n'){
    // alert appers when the user click false
     console.log(' does anyone hate a  mansaf?');
-    alert(" does anyone hate a  mansaf?");
+    alert(" does anyone hate a  mansaf? I eat it ");
 }
 else if(eat=='yes'||eat=='y')
 {
