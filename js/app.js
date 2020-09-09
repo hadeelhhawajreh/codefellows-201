@@ -165,24 +165,31 @@ for (var i = 0; i < 3; i++) {
 
 // 25, 17, 29, 21
 
-var arr = [1, 9, 7, 15, 3, 11, ];
-y=Number(y);
-var y = prompt(" guess an odd  number berteen 1 to 30 that i put in my array");
 
 
-for (var it = 0; it < 6; it++) {
+
+ 
+
+var att=0;
+var arr = [1, 9, 7, 15, 3, 11, 25, 17, 29, 21 ];
+
+while(att<5){
+    var y = prompt(" guess an odd  number berteen 1 to 30 that i put in my array");
+    y=Number(y);
+    for (var it = 0; it < arr.length; it++) {
    
-    if (y == arr[it]) {
-        alert(" you git it the number is  " + y);
-        result += 1;
-        break;
-    }
-    else {
-        alert('Sorry wrong answer, try again');
-    }
-    
-alert(" the correct value is" + arr);
-alert(" the final score " + result + "/8");
+        if (y == arr[it]) {
+            alert(" you guess right  a number in my array   the number is  " + y);
+            result += 1;
+            break;
+        }
+        else {
+            y = prompt(" guess again , you enter before  incorect answer ");
+            att+=1;}
+
+
+ 
 }
-
-
+   
+alert(" the correct value is" + arr);
+alert(" the final score " + result + "/8");}
