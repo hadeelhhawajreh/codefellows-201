@@ -30,7 +30,7 @@ function guessinfo() {
 
 
 
-// Q2  promot to guess my major 
+  // Q2  promot to guess my major 
 
   var mymajor = prompt(" Is my major an software engineering? ? \n Yes/No  ,and you can put y/n also  ").toLowerCase();
   if (mymajor == 'yes' || mymajor == 'y') {
@@ -49,7 +49,7 @@ function guessinfo() {
 
 
 
-//  Q3  promote to guess my age
+  //  Q3  promote to guess my age
 
   var myage = prompt(" Is my age in 22 ?  \n Yes/No  ,and you can put y/n also  ").toLowerCase();
   if (myage == 'yes' || myage == 'y') {
@@ -67,7 +67,7 @@ function guessinfo() {
 
 
 
-//Q4
+  //Q4
 
   var cat = prompt(" Do I like cats?").toLowerCase();
   if (cat == 'yes' || cat == 'y') {
@@ -87,7 +87,7 @@ function guessinfo() {
 
 
 
-//Q5
+  //Q5
 
   var eat = prompt("I don't eat mansaf ? \n Yes/No  ,and you can put y/n also ").toLowerCase();
   if (eat == 'no' || eat == 'n') {
@@ -106,7 +106,7 @@ function guessinfo() {
 
 
 
-//Q6
+  //Q6
 
   var dif = prompt("Do I have a different twin??   \n Yes/No  ,and you can put y/n also  ", 'yes').toLowerCase();
   if (dif == 'yes' || dif == 'y') {
@@ -122,7 +122,8 @@ function guessinfo() {
   }
   else {
     alert('You entered  invalid value');
-  }}
+  }
+}
 
 
 
@@ -186,13 +187,3 @@ function guessodd() {
   alert(" the correct value is" + arr);
   alert(" the final score " + result + "/8");
 }
-
-// name();
-// guessname();
-// guessmajor();
-// guessage();
-// guesspet();
-// guessfood();
-// guessdiff();
-// // guessnum();
-// // guessodd();
