@@ -9,41 +9,42 @@
 </head>
 
 <body>
+    <div class="contain">
+        <img class="img-banner" src="image/img5.jpg" alt="image banner ">
 
-    <header>
-        <h1>
-            <b style="font-weight: bolder; color: darkslategrey; text-shadow: 10 10 2.5 white;"> 
-                <br>
-                Lab: 02 - About Me,
-                with a guessing game </b>
+    </div>
+    <div class="divimage1">
+        <article class="img-information">
+            <h2>
+                <b class="center-text" style="font-weight: bolder;  text-shadow: 10 10 5 white;">
+                    Lab: 02 - About Me, with a guessing game
+                    “About Me” is a webpage that quizzes the user on fun facts,
+                    gives the user some basic information about My and general information ..
+     </b>
+           
+        </article>
+
+    </div>
 
 
-        </h1>
 
-    </header>
-    <p style="font-weight: bold   color: darkslategrey;; ">
-        “About Me” is a webpage that quizzes the user on fun facts,
-        gives the user some basic information about My and general information...
-    </p>
     <br>
-    <div class="container" style=" border:5px solid black;">
-    <img src="image/hadeel.jpeg" style="float: left: ;;  display: inline-block;
-    vertical-align: top;  margin-right: 5px;" alt="my personal image" height="500px">
+    <img class="img-me" src="image/hadeel.jpeg"
+        style=" float: left;  display: inline-block; vertical-align: middle;  margin-right:5px;" alt="my personal image"
+        height="500px">
 
-         <p style=" text-align: right;   display: inline-block;   padding: 5px;"> 
-            My name is hadeel hussam ,i am a software engineering, i am a
-            fresh graduation from balqa applied university in 18 may 2020
-            in beginning i like design a web pages so i learnt to be a front end but i didn't found any company that
-            help me to improve my skills and training on what i learnt because the corona various stop all the life
-            activities never stop in my training opportunity
-            but thankful for God.
-            I studied in the university a  software engineering  in a many different field like
-            <ul style="list-style-type: color: #000;;">
-                <li> Networking (Cisco)</li>
-                <li> Android</li>
-                <li> and Web Development .</li>
-            </ul>
-        </p> 
+    <p style=" text-align: right;   display: inline-block;   padding: 5px;">
+    <div class="container" >
+        <h1>About-Me </h1>
+        My name is hadeel hussam ,i am a software engineering, i am a
+        fresh graduation from balqa applied university in 18 may 2020
+        in beginning i like design a web pages so i learnt to be a front end but i didn't found any company that
+        help me to improve my skills and training on what i learnt because the corona various stop all the life
+        activities never stop in my training opportunity
+        but thankful for God.
+        I studied in the university a software engineering in a many different field like Networking (Cisco),Android and
+        Web Development.
+        </p>
 
     </div>
     <b style="font-size: large;  color: darkslategrey;"> My Experence : </b>
@@ -55,9 +56,12 @@
 
         </li>
     </ul>
+<button  class="button" onclick="guessinfo()" name="Gussing information"> Guess Me </button>
 
-    <b style="font-size: large;  color: darkslategrey; "> My Education : <br> </b>
+<div style="display: wrap; flex-wrap: wrap; padding-left: 10px;" >
     <ul>
+        <b style="font-size: large;  color: darkslategrey; "> My Education : <br> </b>
+
         <li>
             Al Balqa' Applied University|Software Engineering|2016-2020 (3.15)GPA <br>
         </li>
@@ -76,10 +80,12 @@
 
 
     </ul>
+</div>
 
-
-    <h3 style="font-size: 20px;  color: darkslategrey;"> Top 10 Wishing List </h3>
-
+    <button class="button" name="Gussing Game 1" onclick="guessnum()">Gussing Game 1</button> <br>
+    <button class="button" name="Gussing Game 2" onclick="guessodd()">Gussing Game 2</button>
+<div style=" display: wrap; flex-wrap: wrap;">
+    <h3 style="font-size: 20px;  color: darkslategrey; "> Top 10 Wishing List </h3>
     <ol style="list-style-type: decimal;">
         <li class="top-ten"> Travel to Istanbul, Turkey, Dubai, South Korea and Canada </li><br>
         <li class="top-ten"> Eat every kind of food in the world </li><br>
@@ -87,20 +93,19 @@
         <li class="top-ten">Learn coding </li><br>
         <li class="top-ten">Breaking the fear barrier </li><br>
         <li class="top-ten"> Self-reconciliation </li><br>
-        <li class="top-ten"> working  </li><br>
+        <li class="top-ten"> working </li><br>
         <li class="top-ten"> Learn to swim </li><br>
         <li class="top-ten"> To be a chef in sweet </li><br>
         <li class="top-ten">Speak Korean and English fluently </li><br>
     </ol>
-
+</div>
     <footer>
         <br>
         <a href=" https://www.linkedin.com/in/hadeel-hhawajreh98/">GitHub</a><br>
-        <a href="mailto: hadeelhhawajreh@gmail.com">MY GMAIL</a><br>
+        <a href="mailto: hadeelhhawajreh@gmail.com">Gmail</a><br>
         <address>
-            Address: Amman - Khraibet Al-Souq and Jawa-AlWaqar Street
-
-            Phone: +962 7792******
+            Address: Amman - Khraibet Al-Souq and Jawa-AlWaqar Street <br>
+            Phone: +962 7792****** <br>
 
         </address>
     </footer>

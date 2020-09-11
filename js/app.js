@@ -1,6 +1,6 @@
 'use strict';
 //to enter user name
-
+name();
 var result = 0;
 function name() {
   var name = prompt(" Enter Your Name ,please !");
@@ -10,7 +10,7 @@ function name() {
   alert("Hey, " + name + ", have a nice day and stay safe . \n  Greetings ");
 }
 
-function guessname() {
+function guessinfo() {
   // Q1  prompt to guess   my name
   var answer = prompt(" Is  my name Hadeel? \n  Yes/No ,and you can put y/n also").toLowerCase();
   if (answer == 'yes' || answer == 'y') {
@@ -26,12 +26,12 @@ function guessname() {
   else {
     alert('You entered  invalid value');
   }
-}
+
 
 
 
 // Q2  promot to guess my major 
-function guessmajor() {
+
   var mymajor = prompt(" Is my major an software engineering? ? \n Yes/No  ,and you can put y/n also  ").toLowerCase();
   if (mymajor == 'yes' || mymajor == 'y') {
     // alert appers when the user click true
@@ -46,11 +46,11 @@ function guessmajor() {
   else {
     alert('You entered  invalid value');
   }
-}
+
 
 
 //  Q3  promote to guess my age
-function guessage() {
+
   var myage = prompt(" Is my age in 22 ?  \n Yes/No  ,and you can put y/n also  ").toLowerCase();
   if (myage == 'yes' || myage == 'y') {
     // alert appers when the user click true
@@ -64,11 +64,11 @@ function guessage() {
   else {
     alert('You entered  invalid value');
   }
-}
+
 
 
 //Q4
-function guesspet() {
+
   var cat = prompt(" Do I like cats?").toLowerCase();
   if (cat == 'yes' || cat == 'y') {
     // alert appers when the user click true
@@ -83,12 +83,12 @@ function guesspet() {
   else {
     alert('You entered  invalid value');
   }
-}
+
 
 
 
 //Q5
-function guessfood() {
+
   var eat = prompt("I don't eat mansaf ? \n Yes/No  ,and you can put y/n also ").toLowerCase();
   if (eat == 'no' || eat == 'n') {
     // alert appers when the user click false
@@ -103,11 +103,11 @@ function guessfood() {
   else {
     alert('You entered  invalid value');
   }
-}
+
 
 
 //Q6
-function guessdiff() {
+
   var dif = prompt("Do I have a different twin??   \n Yes/No  ,and you can put y/n also  ", 'yes').toLowerCase();
   if (dif == 'yes' || dif == 'y') {
     // alert appers when the user click true
@@ -122,8 +122,8 @@ function guessdiff() {
   }
   else {
     alert('You entered  invalid value');
-  }
-}
+  }}
+
 
 
 //Q7
@@ -187,12 +187,12 @@ function guessodd() {
   alert(" the final score " + result + "/8");
 }
 
-name();
-guessname();
-guessmajor();
-guessage();
-guesspet();
-guessfood();
-guessdiff();
-guessnum();
-guessodd();
+// name();
+// guessname();
+// guessmajor();
+// guessage();
+// guesspet();
+// guessfood();
+// guessdiff();
+// // guessnum();
+// // guessodd();
